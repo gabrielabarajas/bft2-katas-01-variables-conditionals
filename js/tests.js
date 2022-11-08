@@ -9,12 +9,12 @@ describe('Las variables en Javascript', () => {
   })
   it('pueden contener números', () => {
     // Añade la línea que falta
-
+    let b=14.64;
     expect(b).to.equal(14.64);
   })
   it('pueden contener booleanos', () => {
     // Añade la línea que falta
-
+    let c=false;
     expect(c).to.equal(false);
   })
 })
@@ -23,14 +23,14 @@ describe('Comparaciones en Javascript', () => {
     it("usando ===", () => {
         const number = 20;
         //completa la asignación usando number y el comparador ===
-
+        let expresion = (number===30);
         expect(expresion).to.equal(false)
     })
 
     it("usando !==", () => {
         const language = "Javascript";
         //completa la asignación usando language y el comparador !==
-
+        let expresion = (language!=="Javascript");
         expect(expresion).to.equal(false)
     })
 })
@@ -38,17 +38,17 @@ describe('Comparaciones en Javascript', () => {
 describe("Operaciones aritméticas", () => {
     it("Usando suma", () => {
         const a = 10;
-
+        let b=90;
         expect(a+b).to.equal(100);
     })
     it("Usando multiplicación", () => {
         const a = 10;
-
+        let b=1.3;
         expect(a*b).to.equal(13);
     })
     it("Usando división", () => {
         const a = 10;
-
+        let b=4;
         expect(a/b).to.equal(2.5);
     })
 })
@@ -57,14 +57,14 @@ describe('Algebra booleana', () => {
     it("Usando el operador AND (&&)", () => {
         const a = true;
         //completa la asignación de b
-
+        let b=true;
         const expression = a && b;
         expect(expression).to.equal(true);
     })
     it("Usando el operador OR (||)", () => {
         const a = false;
         //completa la asignación de b
-
+        let b = false;
         const expression = a || b;
         expect(expression).to.equal(false);
     })
